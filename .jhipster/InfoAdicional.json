@@ -1,0 +1,146 @@
+{
+  "applications": "*",
+  "changelogDate": "20220527143737",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "info_adicional",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sobrenome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nascimento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefoneCelular",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "doc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cep",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "logradouro",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numero",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "complemento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bairro",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "situacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoLesao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "detalhes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imagemPerfil",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "imagemComDoc",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "imagemLogoParceiro",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "areaEmpresa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cnpj",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inscricaoEstadual",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoServico",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "razaoSocial",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomeFantasia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "banco",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bancoOutro",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "agencia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroConta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefoneEmpresa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailEmpresa",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "InfoAdicional",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "infoAdicional",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
