@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, com.biolivre.teste.domain.User.class.getName());
             createCache(cm, com.biolivre.teste.domain.Authority.class.getName());
             createCache(cm, com.biolivre.teste.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.biolivre.teste.domain.InfoAdicional.class.getName());
+            createCache(cm, com.biolivre.teste.domain.Bateria.class.getName());
+            createCache(cm, com.biolivre.teste.domain.Equipamento.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

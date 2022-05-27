@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220527143738",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "bateria",
+  "fields": [
+    {
+      "fieldName": "numeroSerie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carga",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Bateria",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

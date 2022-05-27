@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220527143739",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "equipamento",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroSerie",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Equipamento",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
