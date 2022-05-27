@@ -1,0 +1,63 @@
+entity InfoAdicional {
+nome String, 
+sobrenome String,
+nascimento String,
+telefoneCelular String,
+doc String,
+cep String,
+logradouro String,
+numero String,
+complemento String,
+bairro String
+cidade String, 
+estado String, 
+situacao String, 
+tipoLesao String, 
+detalhes  String,
+imagemPerfil ImageBlob, 
+imagemComDoc ImageBlob,
+imagemLogoParceiro ImageBlob, 
+areaEmpresa  String,
+cnpj  String,
+inscricaoEstadual String, 
+tipoServico  String,
+razaoSocial  String,
+nomeFantasia  String,
+banco String, 
+bancoOutro String, 
+agencia  String,
+numeroConta  String,
+telefoneEmpresa  String, 
+emailEmpresa String
+}
+
+entity Bateria {
+numeroSerie String
+status String
+carga Integer
+}
+
+entity Equipamento {
+nome String
+status String
+numeroSerie String
+}
+
+enum Estado {
+	AC, AL, AP, AM, BA, CE, DF, ES,
+    GO, MA, MT, MS, MG, PA, PB, PR, PE, 
+    PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO  
+}
+
+relationship ManyToOne {
+	InfoAdicional{user} to User
+}
+
+
+
+
+
+
+
+
+
